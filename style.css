@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+
+
+/* header 영역 */
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    position: relative;
+    z-index: 1;
+}
+/* header h1 */
+header h1 {
+
+}
+header h1 a {
+    color: black;
+}
+/* header #menu */
+header ul#menu {
+    display: flex;
+}
+header ul#menu li {
+    margin: 0 1rem;
+    color: aqua;
+}
+header ul#menu li a {
+
+}
+/* header .sns */
+header ul.sns {
+    display: flex;
+}
+header ul.sns li {
+    margin: 0 .5vw;
+    font-size: 18px;
+}
+header ul.sns li a {
+
+}
+header ul.sns li a i {
+
+}
+
+
+/* main 영역 */
+main {
+    /* 비디오를 위해서? */
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    /* height: 100%; -> body의 height가 존재하지 않는다 */
+    height: 100vh;
+}
+main video {
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    object-fit: cover;
+}
+main .text {
+    position: absolute;
+    left: 6vw;
+    top: 40%;
+}
+main .text p {
+    font-size: 4vw;
+}
+main .text ul {
+    display: flex;
+    font-size: 18px;
+}
+main .text ul li {
+    margin-right: 10px;
+}
+main .text ul li a {
+
+}
+
+
+
+/* footer 영역 */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 3vh;
+    text-align: center;
+    letter-spacing: 2px;
+}
